@@ -1,0 +1,482 @@
+EARLY DWARF for A-2.c
+DIE    0: DW_TAG_compile_unit (0x7f06a488d0a0)
+  abbrev id: 0 offset: 0 mark: 0
+  DW_AT_producer: "GNU C17 9.3.0 -mtune=generic -march=x86-64 -g -fasynchronous-unwind-tables -fstack-protector-strong -fstack-clash-protection -fcf-protection"
+  DW_AT_language: 12
+  DW_AT_name: "A-2.c"
+  DW_AT_comp_dir: "/home/omkar/Desktop/PPL/assignment1"
+    DIE    0: DW_TAG_typedef (0x7f06a49c6870)
+      abbrev id: 0 offset: 0 mark: 0
+      DW_AT_name: "size_t"
+      DW_AT_decl_file: "/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h" (0)
+      DW_AT_decl_line: 209
+      DW_AT_decl_column: 23
+      DW_AT_type: die -> 0 (0x7f06a49c68c0)
+    DIE    0: DW_TAG_base_type (0x7f06a49c68c0)
+      abbrev id: 0 offset: 0 mark: 0
+      DW_AT_byte_size: 8
+      DW_AT_encoding: 7
+      DW_AT_name: "long unsigned int"
+    DIE    0: DW_TAG_base_type (0x7f06a49c7a00)
+      abbrev id: 0 offset: 0 mark: 0
+      DW_AT_byte_size: 4
+      DW_AT_encoding: 7
+      DW_AT_name: "unsigned int"
+    DIE    0: DW_TAG_pointer_type (0x7f06a49c7af0)
+      abbrev id: 0 offset: 0 mark: 0
+      DW_AT_byte_size: 8
+    DIE    0: DW_TAG_base_type (0x7f06a49c8460)
+      abbrev id: 0 offset: 0 mark: 0
+      DW_AT_byte_size: 1
+      DW_AT_encoding: 8
+      DW_AT_name: "unsigned char"
+    DIE    0: DW_TAG_base_type (0x7f06a49c8550)
+      abbrev id: 0 offset: 0 mark: 0
+      DW_AT_byte_size: 2
+      DW_AT_encoding: 7
+      DW_AT_name: "short unsigned int"
+    DIE    0: DW_TAG_base_type (0x7f06a49c8780)
+      abbrev id: 0 offset: 0 mark: 0
+      DW_AT_byte_size: 1
+      DW_AT_encoding: 6
+      DW_AT_name: "signed char"
+    DIE    0: DW_TAG_base_type (0x7f06a49c8910)
+      abbrev id: 0 offset: 0 mark: 0
+      DW_AT_byte_size: 2
+      DW_AT_encoding: 5
+      DW_AT_name: "short int"
+    DIE    0: DW_TAG_base_type (0x7f06a49c8aa0)
+      abbrev id: 0 offset: 0 mark: 0
+      DW_AT_byte_size: 4
+      DW_AT_encoding: 5
+      DW_AT_name: "int"
+    DIE    0: DW_TAG_base_type (0x7f06a49c8c30)
+      abbrev id: 0 offset: 0 mark: 0
+      DW_AT_byte_size: 8
+      DW_AT_encoding: 5
+      DW_AT_name: "long int"
+    DIE    0: DW_TAG_typedef (0x7f06a49d0b90)
+      abbrev id: 0 offset: 0 mark: 0
+      DW_AT_name: "__off_t"
+      DW_AT_decl_file: "/usr/include/x86_64-linux-gnu/bits/types.h" (0)
+      DW_AT_decl_line: 152
+      DW_AT_decl_column: 25
+      DW_AT_type: die -> 0 (0x7f06a49c8c30)
+    DIE    0: DW_TAG_typedef (0x7f06a49d0c30)
+      abbrev id: 0 offset: 0 mark: 0
+      DW_AT_name: "__off64_t"
+      DW_AT_decl_file: "/usr/include/x86_64-linux-gnu/bits/types.h" (0)
+      DW_AT_decl_line: 153
+      DW_AT_decl_column: 27
+      DW_AT_type: die -> 0 (0x7f06a49c8c30)
+    DIE    0: DW_TAG_pointer_type (0x7f06a49d6e10)
+      abbrev id: 0 offset: 0 mark: 0
+      DW_AT_byte_size: 8
+      DW_AT_type: die -> 0 (0x7f06a49d6e60)
+    DIE    0: DW_TAG_base_type (0x7f06a49d6e60)
+      abbrev id: 0 offset: 0 mark: 0
+      DW_AT_byte_size: 1
+      DW_AT_encoding: 6
+      DW_AT_name: "char"
+    DIE    0: DW_TAG_const_type (0x7f06a49fde10)
+      abbrev id: 0 offset: 0 mark: 0
+      DW_AT_type: die -> 0 (0x7f06a49d6e60)
+    DIE    0: DW_TAG_structure_type (0x7f06a49dbc30)
+      abbrev id: 0 offset: 0 mark: 0
+      DW_AT_name: "_IO_FILE"
+      DW_AT_byte_size: 216
+      DW_AT_decl_file: "/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h" (0)
+      DW_AT_decl_line: 49
+      DW_AT_decl_column: 8
+        DIE    0: DW_TAG_member (0x7f06a49df9b0)
+          abbrev id: 0 offset: 0 mark: 0
+          DW_AT_name: "_flags"
+          DW_AT_decl_file: "/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h" (0)
+          DW_AT_decl_line: 51
+          DW_AT_decl_column: 7
+          DW_AT_type: die -> 0 (0x7f06a49c8aa0)
+          DW_AT_data_member_location: 0
+        DIE    0: DW_TAG_member (0x7f06a49dfa00)
+          abbrev id: 0 offset: 0 mark: 0
+          DW_AT_name: "_IO_read_ptr"
+          DW_AT_decl_file: "/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h" (0)
+          DW_AT_decl_line: 54
+          DW_AT_decl_column: 9
+          DW_AT_type: die -> 0 (0x7f06a49d6e10)
+          DW_AT_data_member_location: 8
+        DIE    0: DW_TAG_member (0x7f06a49dfa50)
+          abbrev id: 0 offset: 0 mark: 0
+          DW_AT_name: "_IO_read_end"
+          DW_AT_decl_file: "/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h" (0)
+          DW_AT_decl_line: 55
+          DW_AT_decl_column: 9
+          DW_AT_type: die -> 0 (0x7f06a49d6e10)
+          DW_AT_data_member_location: 16
+        DIE    0: DW_TAG_member (0x7f06a49dfaa0)
+          abbrev id: 0 offset: 0 mark: 0
+          DW_AT_name: "_IO_read_base"
+          DW_AT_decl_file: "/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h" (0)
+          DW_AT_decl_line: 56
+          DW_AT_decl_column: 9
+          DW_AT_type: die -> 0 (0x7f06a49d6e10)
+          DW_AT_data_member_location: 24
+        DIE    0: DW_TAG_member (0x7f06a49dfaf0)
+          abbrev id: 0 offset: 0 mark: 0
+          DW_AT_name: "_IO_write_base"
+          DW_AT_decl_file: "/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h" (0)
+          DW_AT_decl_line: 57
+          DW_AT_decl_column: 9
+          DW_AT_type: die -> 0 (0x7f06a49d6e10)
+          DW_AT_data_member_location: 32
+        DIE    0: DW_TAG_member (0x7f06a49dfb40)
+          abbrev id: 0 offset: 0 mark: 0
+          DW_AT_name: "_IO_write_ptr"
+          DW_AT_decl_file: "/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h" (0)
+          DW_AT_decl_line: 58
+          DW_AT_decl_column: 9
+          DW_AT_type: die -> 0 (0x7f06a49d6e10)
+          DW_AT_data_member_location: 40
+        DIE    0: DW_TAG_member (0x7f06a49dfb90)
+          abbrev id: 0 offset: 0 mark: 0
+          DW_AT_name: "_IO_write_end"
+          DW_AT_decl_file: "/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h" (0)
+          DW_AT_decl_line: 59
+          DW_AT_decl_column: 9
+          DW_AT_type: die -> 0 (0x7f06a49d6e10)
+          DW_AT_data_member_location: 48
+        DIE    0: DW_TAG_member (0x7f06a49dfbe0)
+          abbrev id: 0 offset: 0 mark: 0
+          DW_AT_name: "_IO_buf_base"
+          DW_AT_decl_file: "/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h" (0)
+          DW_AT_decl_line: 60
+          DW_AT_decl_column: 9
+          DW_AT_type: die -> 0 (0x7f06a49d6e10)
+          DW_AT_data_member_location: 56
+        DIE    0: DW_TAG_member (0x7f06a49dfc30)
+          abbrev id: 0 offset: 0 mark: 0
+          DW_AT_name: "_IO_buf_end"
+          DW_AT_decl_file: "/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h" (0)
+          DW_AT_decl_line: 61
+          DW_AT_decl_column: 9
+          DW_AT_type: die -> 0 (0x7f06a49d6e10)
+          DW_AT_data_member_location: 64
+        DIE    0: DW_TAG_member (0x7f06a49dfc80)
+          abbrev id: 0 offset: 0 mark: 0
+          DW_AT_name: "_IO_save_base"
+          DW_AT_decl_file: "/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h" (0)
+          DW_AT_decl_line: 64
+          DW_AT_decl_column: 9
+          DW_AT_type: die -> 0 (0x7f06a49d6e10)
+          DW_AT_data_member_location: 72
+        DIE    0: DW_TAG_member (0x7f06a49dfcd0)
+          abbrev id: 0 offset: 0 mark: 0
+          DW_AT_name: "_IO_backup_base"
+          DW_AT_decl_file: "/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h" (0)
+          DW_AT_decl_line: 65
+          DW_AT_decl_column: 9
+          DW_AT_type: die -> 0 (0x7f06a49d6e10)
+          DW_AT_data_member_location: 80
+        DIE    0: DW_TAG_member (0x7f06a49dfd20)
+          abbrev id: 0 offset: 0 mark: 0
+          DW_AT_name: "_IO_save_end"
+          DW_AT_decl_file: "/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h" (0)
+          DW_AT_decl_line: 66
+          DW_AT_decl_column: 9
+          DW_AT_type: die -> 0 (0x7f06a49d6e10)
+          DW_AT_data_member_location: 88
+        DIE    0: DW_TAG_member (0x7f06a49dfdc0)
+          abbrev id: 0 offset: 0 mark: 0
+          DW_AT_name: "_markers"
+          DW_AT_decl_file: "/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h" (0)
+          DW_AT_decl_line: 68
+          DW_AT_decl_column: 22
+          DW_AT_type: die -> 0 (0x7f06a49dfe10)
+          DW_AT_data_member_location: 96
+        DIE    0: DW_TAG_member (0x7f06a49dfe60)
+          abbrev id: 0 offset: 0 mark: 0
+          DW_AT_name: "_chain"
+          DW_AT_decl_file: "/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h" (0)
+          DW_AT_decl_line: 70
+          DW_AT_decl_column: 20
+          DW_AT_type: die -> 0 (0x7f06a49dfeb0)
+          DW_AT_data_member_location: 104
+        DIE    0: DW_TAG_member (0x7f06a49dff00)
+          abbrev id: 0 offset: 0 mark: 0
+          DW_AT_name: "_fileno"
+          DW_AT_decl_file: "/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h" (0)
+          DW_AT_decl_line: 72
+          DW_AT_decl_column: 7
+          DW_AT_type: die -> 0 (0x7f06a49c8aa0)
+          DW_AT_data_member_location: 112
+        DIE    0: DW_TAG_member (0x7f06a49dff50)
+          abbrev id: 0 offset: 0 mark: 0
+          DW_AT_name: "_flags2"
+          DW_AT_decl_file: "/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h" (0)
+          DW_AT_decl_line: 73
+          DW_AT_decl_column: 7
+          DW_AT_type: die -> 0 (0x7f06a49c8aa0)
+          DW_AT_data_member_location: 116
+        DIE    0: DW_TAG_member (0x7f06a49dffa0)
+          abbrev id: 0 offset: 0 mark: 0
+          DW_AT_name: "_old_offset"
+          DW_AT_decl_file: "/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h" (0)
+          DW_AT_decl_line: 74
+          DW_AT_decl_column: 11
+          DW_AT_type: die -> 0 (0x7f06a49d0b90)
+          DW_AT_data_member_location: 120
+        DIE    0: DW_TAG_member (0x7f06a49e6000)
+          abbrev id: 0 offset: 0 mark: 0
+          DW_AT_name: "_cur_column"
+          DW_AT_decl_file: "/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h" (0)
+          DW_AT_decl_line: 77
+          DW_AT_decl_column: 18
+          DW_AT_type: die -> 0 (0x7f06a49c8550)
+          DW_AT_data_member_location: 128
+        DIE    0: DW_TAG_member (0x7f06a49e6050)
+          abbrev id: 0 offset: 0 mark: 0
+          DW_AT_name: "_vtable_offset"
+          DW_AT_decl_file: "/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h" (0)
+          DW_AT_decl_line: 78
+          DW_AT_decl_column: 15
+          DW_AT_type: die -> 0 (0x7f06a49c8780)
+          DW_AT_data_member_location: 130
+        DIE    0: DW_TAG_member (0x7f06a49e6140)
+          abbrev id: 0 offset: 0 mark: 0
+          DW_AT_name: "_shortbuf"
+          DW_AT_decl_file: "/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h" (0)
+          DW_AT_decl_line: 79
+          DW_AT_decl_column: 8
+          DW_AT_type: die -> 0 (0x7f06a49e60a0)
+          DW_AT_data_member_location: 131
+        DIE    0: DW_TAG_member (0x7f06a49e6190)
+          abbrev id: 0 offset: 0 mark: 0
+          DW_AT_name: "_lock"
+          DW_AT_decl_file: "/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h" (0)
+          DW_AT_decl_line: 81
+          DW_AT_decl_column: 15
+          DW_AT_type: die -> 0 (0x7f06a49e61e0)
+          DW_AT_data_member_location: 136
+        DIE    0: DW_TAG_member (0x7f06a49e6230)
+          abbrev id: 0 offset: 0 mark: 0
+          DW_AT_name: "_offset"
+          DW_AT_decl_file: "/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h" (0)
+          DW_AT_decl_line: 89
+          DW_AT_decl_column: 13
+          DW_AT_type: die -> 0 (0x7f06a49d0c30)
+          DW_AT_data_member_location: 144
+        DIE    0: DW_TAG_member (0x7f06a49e62d0)
+          abbrev id: 0 offset: 0 mark: 0
+          DW_AT_name: "_codecvt"
+          DW_AT_decl_file: "/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h" (0)
+          DW_AT_decl_line: 91
+          DW_AT_decl_column: 23
+          DW_AT_type: die -> 0 (0x7f06a49e6320)
+          DW_AT_data_member_location: 152
+        DIE    0: DW_TAG_member (0x7f06a49e63c0)
+          abbrev id: 0 offset: 0 mark: 0
+          DW_AT_name: "_wide_data"
+          DW_AT_decl_file: "/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h" (0)
+          DW_AT_decl_line: 92
+          DW_AT_decl_column: 25
+          DW_AT_type: die -> 0 (0x7f06a49e6410)
+          DW_AT_data_member_location: 160
+        DIE    0: DW_TAG_member (0x7f06a49e6460)
+          abbrev id: 0 offset: 0 mark: 0
+          DW_AT_name: "_freeres_list"
+          DW_AT_decl_file: "/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h" (0)
+          DW_AT_decl_line: 93
+          DW_AT_decl_column: 20
+          DW_AT_type: die -> 0 (0x7f06a49dfeb0)
+          DW_AT_data_member_location: 168
+        DIE    0: DW_TAG_member (0x7f06a49e64b0)
+          abbrev id: 0 offset: 0 mark: 0
+          DW_AT_name: "_freeres_buf"
+          DW_AT_decl_file: "/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h" (0)
+          DW_AT_decl_line: 94
+          DW_AT_decl_column: 9
+          DW_AT_type: die -> 0 (0x7f06a49c7af0)
+          DW_AT_data_member_location: 176
+        DIE    0: DW_TAG_member (0x7f06a49e6500)
+          abbrev id: 0 offset: 0 mark: 0
+          DW_AT_name: "__pad5"
+          DW_AT_decl_file: "/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h" (0)
+          DW_AT_decl_line: 95
+          DW_AT_decl_column: 10
+          DW_AT_type: die -> 0 (0x7f06a49c6870)
+          DW_AT_data_member_location: 184
+        DIE    0: DW_TAG_member (0x7f06a49e6550)
+          abbrev id: 0 offset: 0 mark: 0
+          DW_AT_name: "_mode"
+          DW_AT_decl_file: "/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h" (0)
+          DW_AT_decl_line: 96
+          DW_AT_decl_column: 7
+          DW_AT_type: die -> 0 (0x7f06a49c8aa0)
+          DW_AT_data_member_location: 192
+        DIE    0: DW_TAG_member (0x7f06a49e6640)
+          abbrev id: 0 offset: 0 mark: 0
+          DW_AT_name: "_unused2"
+          DW_AT_decl_file: "/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h" (0)
+          DW_AT_decl_line: 98
+          DW_AT_decl_column: 8
+          DW_AT_type: die -> 0 (0x7f06a49e65a0)
+          DW_AT_data_member_location: 196
+    DIE    0: DW_TAG_typedef (0x7f06a49dbd20)
+      abbrev id: 0 offset: 0 mark: 0
+      DW_AT_name: "FILE"
+      DW_AT_decl_file: "/usr/include/x86_64-linux-gnu/bits/types/FILE.h" (0)
+      DW_AT_decl_line: 7
+      DW_AT_decl_column: 25
+      DW_AT_type: die -> 0 (0x7f06a49dbc30)
+    DIE    0: DW_TAG_typedef (0x7f06a49dbfa0)
+      abbrev id: 0 offset: 0 mark: 0
+      DW_AT_name: "_IO_lock_t"
+      DW_AT_decl_file: "/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h" (0)
+      DW_AT_decl_line: 43
+      DW_AT_decl_column: 14
+    DIE    0: DW_TAG_structure_type (0x7f06a49dfd70)
+      abbrev id: 0 offset: 0 mark: 0
+      DW_AT_name: "_IO_marker"
+      DW_AT_declaration: 1
+    DIE    0: DW_TAG_pointer_type (0x7f06a49dfe10)
+      abbrev id: 0 offset: 0 mark: 0
+      DW_AT_byte_size: 8
+      DW_AT_type: die -> 0 (0x7f06a49dfd70)
+    DIE    0: DW_TAG_pointer_type (0x7f06a49dfeb0)
+      abbrev id: 0 offset: 0 mark: 0
+      DW_AT_byte_size: 8
+      DW_AT_type: die -> 0 (0x7f06a49dbc30)
+    DIE    0: DW_TAG_array_type (0x7f06a49e60a0)
+      abbrev id: 0 offset: 0 mark: 0
+      DW_AT_type: die -> 0 (0x7f06a49d6e60)
+        DIE    0: DW_TAG_subrange_type (0x7f06a49e60f0)
+          abbrev id: 0 offset: 0 mark: 0
+          DW_AT_type: die -> 0 (0x7f06a49c68c0)
+          DW_AT_upper_bound: 0
+    DIE    0: DW_TAG_pointer_type (0x7f06a49e61e0)
+      abbrev id: 0 offset: 0 mark: 0
+      DW_AT_byte_size: 8
+      DW_AT_type: die -> 0 (0x7f06a49dbfa0)
+    DIE    0: DW_TAG_structure_type (0x7f06a49e6280)
+      abbrev id: 0 offset: 0 mark: 0
+      DW_AT_name: "_IO_codecvt"
+      DW_AT_declaration: 1
+    DIE    0: DW_TAG_pointer_type (0x7f06a49e6320)
+      abbrev id: 0 offset: 0 mark: 0
+      DW_AT_byte_size: 8
+      DW_AT_type: die -> 0 (0x7f06a49e6280)
+    DIE    0: DW_TAG_structure_type (0x7f06a49e6370)
+      abbrev id: 0 offset: 0 mark: 0
+      DW_AT_name: "_IO_wide_data"
+      DW_AT_declaration: 1
+    DIE    0: DW_TAG_pointer_type (0x7f06a49e6410)
+      abbrev id: 0 offset: 0 mark: 0
+      DW_AT_byte_size: 8
+      DW_AT_type: die -> 0 (0x7f06a49e6370)
+    DIE    0: DW_TAG_array_type (0x7f06a49e65a0)
+      abbrev id: 0 offset: 0 mark: 0
+      DW_AT_type: die -> 0 (0x7f06a49d6e60)
+        DIE    0: DW_TAG_subrange_type (0x7f06a49e65f0)
+          abbrev id: 0 offset: 0 mark: 0
+          DW_AT_type: die -> 0 (0x7f06a49c68c0)
+          DW_AT_upper_bound: 19
+    DIE    0: DW_TAG_variable (0x7f06a49eb370)
+      abbrev id: 0 offset: 0 mark: 0
+      DW_AT_name: "stdin"
+      DW_AT_decl_file: "/usr/include/stdio.h" (0)
+      DW_AT_decl_line: 137
+      DW_AT_decl_column: 14
+      DW_AT_type: die -> 0 (0x7f06a49eb3c0)
+      DW_AT_external: 1
+      DW_AT_declaration: 1
+    DIE    0: DW_TAG_pointer_type (0x7f06a49eb3c0)
+      abbrev id: 0 offset: 0 mark: 0
+      DW_AT_byte_size: 8
+      DW_AT_type: die -> 0 (0x7f06a49dbd20)
+    DIE    0: DW_TAG_variable (0x7f06a49eb460)
+      abbrev id: 0 offset: 0 mark: 0
+      DW_AT_name: "stdout"
+      DW_AT_decl_file: "/usr/include/stdio.h" (0)
+      DW_AT_decl_line: 138
+      DW_AT_decl_column: 14
+      DW_AT_type: die -> 0 (0x7f06a49eb3c0)
+      DW_AT_external: 1
+      DW_AT_declaration: 1
+    DIE    0: DW_TAG_variable (0x7f06a49eb500)
+      abbrev id: 0 offset: 0 mark: 0
+      DW_AT_name: "stderr"
+      DW_AT_decl_file: "/usr/include/stdio.h" (0)
+      DW_AT_decl_line: 139
+      DW_AT_decl_column: 14
+      DW_AT_type: die -> 0 (0x7f06a49eb3c0)
+      DW_AT_external: 1
+      DW_AT_declaration: 1
+    DIE    0: DW_TAG_variable (0x7f06a49fdc80)
+      abbrev id: 0 offset: 0 mark: 0
+      DW_AT_name: "sys_nerr"
+      DW_AT_decl_file: "/usr/include/x86_64-linux-gnu/bits/sys_errlist.h" (0)
+      DW_AT_decl_line: 26
+      DW_AT_decl_column: 12
+      DW_AT_type: die -> 0 (0x7f06a49c8aa0)
+      DW_AT_external: 1
+      DW_AT_declaration: 1
+    DIE    0: DW_TAG_array_type (0x7f06a49fdd20)
+      abbrev id: 0 offset: 0 mark: 0
+      DW_AT_type: die -> 0 (0x7f06a49fde60)
+        DIE    0: DW_TAG_subrange_type (0x7f06a49fdd70)
+          abbrev id: 0 offset: 0 mark: 0
+    DIE    0: DW_TAG_const_type (0x7f06a49fdf00)
+      abbrev id: 0 offset: 0 mark: 0
+      DW_AT_type: die -> 0 (0x7f06a49fdd20)
+    DIE    0: DW_TAG_pointer_type (0x7f06a49fddc0)
+      abbrev id: 0 offset: 0 mark: 0
+      DW_AT_byte_size: 8
+      DW_AT_type: die -> 0 (0x7f06a49fde10)
+    DIE    0: DW_TAG_const_type (0x7f06a49fde60)
+      abbrev id: 0 offset: 0 mark: 0
+      DW_AT_type: die -> 0 (0x7f06a49fddc0)
+    DIE    0: DW_TAG_variable (0x7f06a49fdeb0)
+      abbrev id: 0 offset: 0 mark: 0
+      DW_AT_name: "sys_errlist"
+      DW_AT_decl_file: "/usr/include/x86_64-linux-gnu/bits/sys_errlist.h" (0)
+      DW_AT_decl_line: 27
+      DW_AT_decl_column: 26
+      DW_AT_type: die -> 0 (0x7f06a49fdf00)
+      DW_AT_external: 1
+      DW_AT_declaration: 1
+    DIE    0: DW_TAG_variable (0x7f06a4a05500)
+      abbrev id: 0 offset: 0 mark: 0
+      DW_AT_name: "Z"
+      DW_AT_decl_file: "A-2.c" (0)
+      DW_AT_decl_line: 2
+      DW_AT_decl_column: 5
+      DW_AT_type: die -> 0 (0x7f06a49c8aa0)
+      DW_AT_external: 1
+    DIE    0: DW_TAG_subprogram (0x7f06a4a05910)
+      abbrev id: 0 offset: 0 mark: 0
+      DW_AT_external: 1
+      DW_AT_name: "f"
+      DW_AT_decl_file: "A-2.c" (0)
+      DW_AT_decl_line: 4
+      DW_AT_decl_column: 6
+        DIE    0: DW_TAG_variable (0x7f06a4a05960)
+          abbrev id: 0 offset: 0 mark: 0
+          DW_AT_name: "a"
+          DW_AT_decl_file: "A-2.c" (0)
+          DW_AT_decl_line: 6
+          DW_AT_decl_column: 13
+          DW_AT_type: die -> 0 (0x7f06a49c8aa0)
+        DIE    0: DW_TAG_variable (0x7f06a4a059b0)
+          abbrev id: 0 offset: 0 mark: 0
+          DW_AT_name: "b"
+          DW_AT_decl_file: "A-2.c" (0)
+          DW_AT_decl_line: 6
+          DW_AT_decl_column: 16
+          DW_AT_type: die -> 0 (0x7f06a49c8aa0)
+        DIE    0: DW_TAG_variable (0x7f06a4a05a00)
+          abbrev id: 0 offset: 0 mark: 0
+          DW_AT_name: "c"
+          DW_AT_decl_file: "A-2.c" (0)
+          DW_AT_decl_line: 6
+          DW_AT_decl_column: 19
+          DW_AT_type: die -> 0 (0x7f06a49c8aa0)
+

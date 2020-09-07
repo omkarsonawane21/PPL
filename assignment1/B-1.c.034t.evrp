@@ -1,0 +1,53 @@
+
+;; Function AddTwo (AddTwo, funcdef_no=23, decl_uid=2511, cgraph_uid=24, symbol_order=23)
+
+;; 1 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1 2
+;; 2 succs { 1 }
+
+Value ranges after Early VRP:
+
+a_1(D): VARYING
+a_2: int [-2147483646, +INF]
+
+
+AddTwo (int a)
+{
+  <bb 2> :
+  a_2 = a_1(D) + 2;
+  return a_2;
+
+}
+
+
+
+;; Function main (main, funcdef_no=24, decl_uid=2513, cgraph_uid=25, symbol_order=24)
+
+;; 1 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1 2
+;; 2 succs { 1 }
+
+Value ranges after Early VRP:
+
+
+
+main ()
+{
+  int D.2525;
+  int a;
+  int x;
+
+  <bb 2> :
+  return 5;
+
+}
+
+

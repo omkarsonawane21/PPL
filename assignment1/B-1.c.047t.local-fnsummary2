@@ -1,0 +1,52 @@
+
+;; Function AddTwo (AddTwo, funcdef_no=23, decl_uid=2511, cgraph_uid=24, symbol_order=23)
+
+
+Analyzing function body size: AddTwo
+
+IPA function summary for AddTwo/23 inlinable
+  global time:     3.000000
+  self size:       4
+  global size:     0
+  min size:       0
+  self stack:      0
+  global stack:    0
+    size:0.000000, time:0.000000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+    size:1.000000, time:1.000000,  nonconst if:(op0 changed)
+  calls:
+
+AddTwo (int a)
+{
+  <bb 2> [local count: 1073741824]:
+  a_2 = a_1(D) + 2;
+  return a_2;
+
+}
+
+
+
+;; Function main (main, funcdef_no=24, decl_uid=2513, cgraph_uid=25, symbol_order=24) (executed once)
+
+
+Analyzing function body size: main
+
+IPA function summary for main/24 inlinable
+  global time:     2.000000
+  self size:       3
+  global size:     0
+  min size:       0
+  self stack:      0
+  global stack:    0
+    size:0.000000, time:0.000000
+    size:3.000000, time:2.000000,  executed if:(not inlined)
+  calls:
+
+main ()
+{
+  <bb 2> [local count: 1073741824]:
+  return 5;
+
+}
+
+
